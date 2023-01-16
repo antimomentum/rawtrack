@@ -5,7 +5,7 @@ Using ipset to replace the Linux kernel conntrack
 
 Specify the interface you wish to apply rawtrack to as an argument. For example:
 
-    ./ESTABLISHED.SH eth0
+    ./ESTABLISHED.sh eth0
 
 You can usually find your list of interfaces with the ip command:
 
