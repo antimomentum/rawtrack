@@ -15,7 +15,7 @@ You can usually find your list of interfaces with the ip command:
 
 # Details:
 
-ESTABLISHED.sh creates rules that would be like using conntrack's ESTABLISHED state match. The closest equivelant would be:
+ESTABLISHED.sh creates rules that would be like using conntrack's ESTABLISHED state match. The closest equivalent would be:
 
     iptables -t mangle -A PREROUTING -i $interface -m state --state ESTABLISHED -j ACCEPT
     iptables -t mangle -A PREROUTING -i $interface -j DROP
